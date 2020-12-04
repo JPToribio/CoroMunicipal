@@ -1,2 +1,2 @@
 # ProyectoCoroMunicipal
-https://jptoribio.github.io/ProyectoCoroMunicipal/
+https://jptoribio.github.io/CoroMunicipal/
