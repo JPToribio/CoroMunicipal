@@ -1,0 +1,316 @@
+body {
+  background-color: #59707c;
+}
+
+
+h1 {
+  font-size: 500%;
+  line-height: 2em;
+  
+}
+h2 {
+  font-size: 450%;
+  line-height: 2em;
+}
+h3 {
+  font-size: 300%;
+  line-height: 2em;
+}
+p {
+  font-size: 150%;
+}
+
+
+/* LOGOS */
+.logos {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  background-color: whitesmoke;
+  height: 10%;  
+}
+.imglog {
+  width: 80%;
+}
+#banner {
+  width: 50%;
+  justify-self: center;
+}
+.logos2 {
+  display: grid;
+  grid-template-columns: 80% 10% 10%;
+  text-align: center;
+  align-items: center;
+}
+
+.main {
+  overflow: hidden;
+  padding: 5%;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  justify-items: center;
+  background-color: whitesmoke;
+  grid-column-gap: 3%;
+}
+
+.consola {
+  display: grid;
+  grid-template-rows: 25% 75%;
+  width: 100%;
+  
+}
+.reproducción {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 1%;
+}
+.reproducción img {
+  width: 100%;
+}
+.tracks {
+  display: grid;
+  grid-template-rows: 23% 23% 23% 23%;
+  row-gap: 2%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+.reproducción img:hover {
+  opacity: 0.5;
+}
+
+.vid {
+  width: 100%;
+}
+.grid-item {
+  color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 120%;
+  text-align: center;
+  justify-self: stretch;
+  padding: 4%;
+  height: 73%;
+  line-height: 4em;
+}
+.grid-item:hover {
+  opacity: 0.5;
+  
+}
+.grid.item:active {
+  opacity: 0.5;
+  }
+#myButton1 {
+  background-color: #f19800;
+  border-radius: 25px;
+}
+
+#myButton2 {
+  background-color: #0067b1;
+  border-radius: 25px;
+}
+#myButton3 {
+  background-color: #4ca92b;
+  border-radius: 25px;
+}
+#myButton4 {
+  background-color: #dd0053;
+  border-radius: 25px;
+}
+.video2 {
+  background-color: black;
+  height: 400px;
+  width: 800px;
+  margin: auto auto;
+}
+.videoTexto p {
+  padding: 5%;
+}
+/* .wrapper {
+  display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+} */
+.texto, .titulo, .videoTexto, .creditos {
+  line-height: 3em;
+  text-decoration: none;
+  padding: 0% 5% 0% 5%;
+  color: whitesmoke;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  vertical-align: middle;
+  margin: auto;
+  text-align: center;
+}
+.texto p {
+  padding-top: 0%;
+  padding-right: 5%;
+  padding-bottom: 10%;
+  padding-left: 5%;
+}
+
+.creditos {
+  margin: 10% 10%;
+}
+.contenedor-texto {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 10% 10%;
+}
+
+h4 {
+  color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 200%;
+  text-align: center;
+}
+
+.vid {
+  position: relative;
+  width: 100%;
+}
+
+video {
+  display: block;
+  margin: auto;
+}
+
+#overlay {
+  width: 100%;
+  height: 16%;            
+  position: absolute;
+  top: 26%;
+  left: 0;
+  background-color: #f19800;
+  opacity: 0.3;
+  z-index: 9;
+}
+
+#overlay2 {
+  width: 100%;
+  height: 16%;            
+  position: absolute;
+  top: 44%;
+  background-color: #0067b1;
+  opacity: 0.3;
+  z-index: 9;
+}
+
+#overlay3 {
+  width: 100%;
+  height: 16%;            
+  position: absolute;
+  top: 62%;
+  background-color: #4ca92b;
+  opacity: 0.3;
+  z-index: 9;
+}
+
+#overlay4 {
+  width: 100%;
+  height: 16%;            
+  position: absolute;
+  top: 80%;
+  background-color: #dd0053;
+  opacity: 0.3;
+  z-index: 9;
+}
+
+
+
+/* Media */
+/*.titulo h1 {
+  width: 90%;
+  margin: auto auto;
+} */
+@media only screen and (max-width: 800px) {
+
+.main {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto;
+  
+}
+
+.consola {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+.reproducción {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height: 20%;
+  
+}
+.imgbtn {
+  width: 50%;
+  margin: auto auto;
+}
+.tracks {
+  display: grid;
+  grid-template-rows: 23% 23% 23% 23%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  row-gap: 2%;
+  width: 100%;
+  
+}
+
+.grid-item {
+    font-size: 100%;
+    padding: 3%;
+    height: 50%;
+    line-height: 2em;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+h2 {
+  font-size: 150%;
+}
+
+h3 {
+  font-size: 125%;
+}
+
+h4 {
+  font-size: 100%;
+}
+
+p {
+  font-size: 100%;
+}
+
+.texto p {
+  font-size: 100%;
+}
+
+.logos {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background-color: whitesmoke;
+  height: 20%;
+}
+.imglog {
+  width: 80%;
+}
+
+#banner {
+  width: 50%;
+  justify-self: center;
+}
+.logos2 {
+  display: grid;
+  grid-template-columns: 70% 15% 15%;
+  text-align: center;
+  align-items: center;
+}
+.video2 {
+  width: 100%;
+  height: 70%;
+}
+}
+
+
